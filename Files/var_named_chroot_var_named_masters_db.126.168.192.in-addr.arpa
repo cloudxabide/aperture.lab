@@ -1,0 +1,19 @@
+$ORIGIN 126.168.192.in-addr.arpa.
+$TTL 86400
+@     IN     SOA    dns1.aperture.lab.     hostmaster.aperture.lab. (
+                    2021011401 ; serial
+                    21600      ; refresh after 6 hours
+                    3600       ; retry after 1 hour
+                    604800     ; expire after 1 week
+                    86400 )    ; minimum TTL of 1 day
+
+      	IN	NS	proxy.aperture.lab.
+
+5	IN	PTR	proxy.aperture.lab.
+10	IN	PTR	bootstrap.aperture.lab.	
+21	IN	PTR	master1.aperture.lab.	
+22	IN	PTR	master2.aperture.lab.	
+23	IN	PTR	master3.aperture.lab.	
+31	IN	PTR	worker1.aperture.lab.	
+32	IN	PTR	worker2.aperture.lab.	
+33	IN	PTR	worker3.aperture.lab.	

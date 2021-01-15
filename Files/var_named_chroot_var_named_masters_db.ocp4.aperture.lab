@@ -1,0 +1,18 @@
+$ORIGIN ocp4.aperture.lab. 
+$TTL 86400 
+@	IN	SOA	proxy.ocp4.aperture.lab.	hostmaster.aperture.lab. (
+			2021011401 ; serial                     
+			21600      ; refresh after 6 hours                     
+			3600       ; retry after 1 hour                     
+			604800     ; expire after 1 week                     
+			86400 )    ; minimum TTL of 1 day  
+		     
+		           
+	IN	NS	proxy.aperture.lab.       
+
+proxy	IN	A	192.168.126.5
+*	IN	A	192.168.126.5
+
+
+api	IN	CNAME	proxy.ocp4.aperture.lab.
+api-int	IN	CNAME	proxy.ocp4.aperture.lab.
