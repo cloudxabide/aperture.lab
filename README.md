@@ -13,12 +13,12 @@ Lab for Laptop running Fedora or RHEL
 
 ## Repo Directory Structure
 <pre>
-/             # Base Directory  
-ansible/      # Eventually hope to have this all ansible'ized  
-Files/        # Miscellaneous Files and configs  
-Images/       # Images, Pics, Architecture  
-Kickstart/    # Kickstart Files and Host Directories (for Ubuntu)  
-Script/       # All the shell scripts  
+/               # Base Directory  
+  ansible/      # Eventually hope to have this all ansible'ized  
+  Files/        # Miscellaneous Files and configs  
+  Images/       # Images, Pics, Architecture  
+  Kickstart/    # Kickstart Files and Host Directories (for Ubuntu)  
+  Script/       # All the shell scripts  
 </pre>
  
 
