@@ -8,6 +8,7 @@ It still works just fine, but... I also had to replace an older (2017?) Thinkpad
 |:---------|:-------------|:------------|:---------------------------------------|:--------:|:----:|
 | slippy   | Dell Inc.    | XPS 15 9520 |  12th Gen Intel(R) Core(TM) i9-12900HK |  14 / 20 | 31Gi |
 
+[12th Gen Intel(R) Core(TM) i9-12900HK - Specifications](https://www.intel.com/content/www/us/en/products/sku/132215/intel-core-i912900hk-processor-24m-cache-up-to-5-00-ghz/specifications.html)
 
 ```
 echo "| `hostname -s` | `dmidecode -s system-manufacturer` | `dmidecode -s system-product-name` | `grep ^model\ name /proc/cpuinfo | uniq | awk -F: '{ print $2 }'` | `grep cpu\ cores /proc/cpuinfo | awk -F\: '{ print $2 }' | uniq` / `grep cpu\ cores /proc/cpuinfo 2>/dev/null |wc -l` | `free -h | grep "Mem:" | awk '{ print $2 }'` |"
