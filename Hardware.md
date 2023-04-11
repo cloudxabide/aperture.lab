@@ -16,9 +16,9 @@ echo "| `hostname -s` | `dmidecode -s system-manufacturer` | `dmidecode -s syste
 
 ### Geekbench 5
 
-As you can see this system is no slouch
+As you can see this system is no slouch - here I compare it to my 2020 Apple M1 MacBook Pro.  And for an additional frame of reference, my MBP uses a 60watt power supply, the Dell... 135watt.  
 
-| Name | Platform | Architecture | Single-core Score | Multi-core Score | 
+| Name                                                                 | Platform | Architecture | Single-core Score | Multi-core Score | 
 |:---------------------------------------------------------------------|:-----:|:-------:|:----:|:-----:|
 | Dell Inc. XPS 15 9520 <BR> Intel Core i9-12900HK 4900 MHz (14 cores) | Linux | x64     | 1815 | 11246 | 
 | MacBook Pro (13-inch Late 2020) <BR> Apple M1 3197 MHz (8 cores)     | macOS | AArch64 | 1759 | 7676  |
