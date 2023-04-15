@@ -1,0 +1,14 @@
+# THESE VALUES ARE READ IN BY:  
+#   build_kvm.sh
+#   post_install.sh
+# 
+#NAME:HYPERVISOR:RELEASE:NUMCPU:MEM:HDD0:HDD1:HDD2:releasetype:releasever:BIOS-UEFI:Satellite:DISCONNECTED:PURPOSE:INSTALL:FIPS
+#   1:         2:      3:     4   5:   6:   7:   8:          9:        10:       11:       12:          13:     14:     15   16
+# BIOS-UEFI: BIOS|UEFI (select one)
+# PURPOSE:   RHV|RHHI|RHC
+# INSTALL:   RHEL|RHVH|RHELH (unused)
+# 
+control-plane-0:slippy:EL8:2:4096:50:50:0:server:8.7:BIOS:1:0:x:x:0
+worker-node-0:slippy:EL8:2:4096:50:50:0:server:8.7:BIOS:1:0:x:x:0
+worker-node-1:slippy:EL8:2:4096:50:50:0:server:8.7:BIOS:1:0:x:x:0
+
